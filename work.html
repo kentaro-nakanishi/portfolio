@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>中西 健太朗のポートフォリオ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/top.css">
+</head>
+
+<body>
+
+       <!-- サイドバー -->
+    <div class="sidebar">
+         <ul>
+             <li class="sideLink sideLinkTop">
+                 <a href="./index.html">トップ</a>
+             </li>
+             <li class="sideLink sideLinkMovie">
+                 <a href="./profile.html">プロフィール</a>
+             </li>
+             <li class="sideLink sideLinkDrama">
+                 <a href="./history.html">お仕事・実績等</a>
+             </li>
+             <li class="sideLink sideLinkWork">
+                   <a href="./work.html">制作物デモ</a>
+               </li>
+
+         </ul>
+     </div>
+
+<!-- メインカラム -->
+<div class="mainColumn">
+        <div class="mainColumnTop">
+            <h1 class="titlefont">制作物デモ</h1>
+
+            <p>
+                <span style="transform: skewX(-20deg); color: #354151; display: inline-block;">
+                    学内で開発、研究を行っていたシステムをご紹介するページです。
+                </span>
+            </p>
+            <hr>
+
+            <div>&emsp;</div>
+            <div>&emsp;</div>
+
+            <p>
+                <h2 class="titlefont">●自動作曲システムMatrix Project</h1>
+            </p>
+
+            <p>
+                ▽動画デモはこちら(音楽が流れます)
+            </p>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Tphw-2R5Dvc?si=q6HyD7ETByyQI_JZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+            <div>&emsp;</div>
+
+            <p>
+                <div>
+                    ▽ソースコードはこちら
+                </div>
+                <a href="https://github.com/kentaro-nakanishi/Matrix_Project">
+                    https://github.com/kentaro-nakanishi/Matrix_Project
+                </a>
+                <div>
+                    (githubのページにジャンプします)
+                </div>
+            </p>
+            <div>&emsp;</div>
+
+            <hr style="border: none;border-top: 1px dotted #999;">
+
+            <p>
+                <h3 class="titlefont">▲これは何？</h3>
+            </p>
+            <p>
+                Matrix Projectは、中西健太朗個人によって開発されている自動作曲のためのソフトウェアです。
+            </p>
+
+            <div>&emsp;</div>
+
+            <p>
+                <h3 class="titlefont">▲どんなことができるの？</h3>
+
+                <div>音楽の</div>
+                <ul>
+                <li>音階</li>
+                <li>楽器法</li>
+                <li>音色</li>
+                <li>時間発展</li>
+                </ul>
+                <div>
+                    などの要素を、条件式によってコントロールすることで、<br>
+                    MIDI楽譜データ・WAV音声データの形式で、<br>
+                    それらのパラメータに基づいた新しい音楽を生成することができます。</div>
+
+            </p>
+
+        <span style="transform: skewX(-20deg); color: #354151; display: inline-block;">
+            &emsp;生成された音楽は、上のyoutubeのリンクから視聴することができます。
+        </span>
+
+
+        <div>&emsp;</div>
+
+        <p>
+            <h3 class="titlefont">▲どんなことに利用できる？</h3>
+        </p>
+        <p>
+        このソフトは、オーケストラのための音楽の制作の過程で、<br>
+        作曲補助ツールとして開発されたソフトです。<br><br>
+
+        生成された音楽をコンピュータ上で再生して聴いて楽しむことはもちろん、<br>
+        人間によるオーケストラや室内楽などの音楽のための作曲支援に用いることができます。<br>
+
+        <img class="profileProfileImg" src="./index_files/gakuhu_sakusei.png" width="650"/>
+        <br>
+        <span style="transform: skewX(-20deg); color: #354151; display: inline-block;">
+            ▲Matrix Projectを用いた音楽制作
+        </span>
+        </p>
+
+        <div>&emsp;</div>
+
+        <p>
+            <h3 class="titlefont">▲一般の人にも使える？</h3>
+        </p>
+        <p>
+            2023.4.現在、一般の方向けのGUI祖父よは提供しておりません。<br>
+            コードは
+
+            <a href="https://github.com/kentaro-nakanishi/Matrix_Project">
+                https://github.com/kentaro-nakanishi/Matrix_Project
+            </a>
+            <br>
+            にて公開されているため、PCをお持ちの方はご自身の環境で動かすことができます。<br>
+
+            <h5>手順</h5>
+            <ul>
+                <li>上のGitHubのリンクよりフォルダをローカルにクローンし、</li>
+                <li>require.txtに従って必要なライブラリ等をインストールして下さい。</li>
+                <li>main.pyを実行すると、音楽(MIDI楽譜データ)が生成されます。</li>
+                <li>config.pyより、詳細に音楽がコントロールできます。</li>
+                </ul>
+
+
+        <span style="transform: skewX(-20deg); color: #354151; display: inline-block;">
+            <div>技術者の方向け</div>
+            <div>更に詳しい技術的な詳細を必要とする方は、riku5syou4☆gmail.com(☆→@)にご連絡下さい。Matrix Projectのリファレンスをお送りします。</div>
+        </span>
+
+        </p>
+
+
+        <div>&emsp;</div>
+
+
+        <div class="topBody">
+
+        </div>
+</div>
+
+
+
+
+</body>
+
+</html>
