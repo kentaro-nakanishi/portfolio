@@ -8,8 +8,8 @@ body{
         position: fixed;
         overflow-x: hidden;
         background-color: #ededf8;
-        height: 100vh;
-        width: 20%;
+        height: 300%;
+        width: 100px;
         border-right: 0.5px solid #000000;
     }
 
