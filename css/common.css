@@ -8,7 +8,7 @@ body{
         position: fixed;
         overflow-x: hidden;
         background-color: #ededf8;
-        height: 300%;
+        height: 200%;
         width: 100px;
         border-right: 0.5px solid #000000;
     }
