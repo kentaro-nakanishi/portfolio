@@ -2,6 +2,8 @@
         background-color: #fff;background-color: #f5fafc;box-shadow: 0px 0px 20px 20px #f5fafc;padding: 10px;margin: 40px 30px;
     }
 
+
+
     .topBody{
 
     }
@@ -26,6 +28,12 @@
     opacity: 0.3;
     width: 300px;
     }
+
+    .topProfileImg2{
+        margin-left: -0%;
+        opacity: 0.0;
+        width: 300px;
+        }
 
     .topInfoHeader{
         text-align: center;
